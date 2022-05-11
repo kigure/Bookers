@@ -35,4 +35,34 @@
    line-height: 18px;
    margin: 33px;
   }
+  
+  #notice{
+     color: green;
+  }
+  
+  th {
+    padding-bottom: 5px;
+   }
+   
+   td{
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+   
+   .new-books{
+      margin: 18px auto;
+   }
+   
+   .field{
+       margin-bottom: 10px;
+   }
+   
+   .index-h1{
+       margin: 18px auto;
+   }
 
+   
+   .edit{
+     margin: 18px auto;
+    }
