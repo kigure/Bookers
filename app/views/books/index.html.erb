@@ -1,4 +1,4 @@
-<p id="notice"></p>
+<p></p>
 <h1 class="index-h1">Books</h1>
 <table>
   <thead>
@@ -15,7 +15,7 @@
     <td><%= b.body %></td>
     <td><%= link_to "Show", book_path(b.id) %></td>
     <td><%= link_to "Edit", edit_book_path(b.id) %></td>
-    <td><%= link_to "Destroy" %></td>
+    <td><%= link_to "Destroy", book_path(b.id), method: :delete, "data-confirm" => "Are you sure?" %></td>
     </tr>
   </tbody>
   <% end %>
